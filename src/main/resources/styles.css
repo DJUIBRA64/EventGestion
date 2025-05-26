@@ -1,0 +1,56 @@
+/* styles.css */
+.root {
+    -fx-font-family: "Arial", sans-serif; /* Police par défaut */
+    -fx-font-size: 13px;
+}
+
+.label {
+    -fx-text-fill: #333333;
+}
+
+.button {
+    -fx-background-color: #007bff; /* Bleu Bootstrap */
+    -fx-text-fill: white;
+    -fx-background-radius: 4px;
+    -fx-padding: 6px 12px;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3; /* Bleu plus foncé au survol */
+}
+
+.toolbar-button { /* Style spécifique pour les boutons de la barre d'outils */
+    -fx-background-color: #6c757d; /* Gris */
+    -fx-font-size: 12px;
+}
+.toolbar-button:hover {
+    -fx-background-color: #5a6268;
+}
+
+
+.table-view {
+    -fx-border-color: #cccccc;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #f0f0f0; /* Gris clair pour les en-têtes */
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #333333;
+    -fx-font-weight: bold;
+}
+
+#notificationLabel {
+    -fx-font-style: italic;
+    -fx-text-fill: #006400; /* Vert foncé pour les notifications positives */
+}
+
+#statusLabel {
+     -fx-text-fill: #555555;
+}
+
+/* Pour les dialogues d'erreur/alerte (si on veut les styler plus tard) */
+.dialog-pane .label {
+    -fx-font-size: 14px;
+}

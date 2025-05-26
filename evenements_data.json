@@ -1,0 +1,10 @@
+[ {
+  "idEvent" : "nbjd",
+  "nomEvent" : "dk",
+  "dateHeure" : [ 2025, 5, 1, 22, 30 ],
+  "lieuEvent" : "maison",
+  "capaciteMax" : 50,
+  "participantsInscrits" : [ ],
+  "artistePrincipal" : "jjj",
+  "genreMusicalConcert" : "kkkkkkkkk"
+} ]
